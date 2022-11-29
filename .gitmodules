@@ -1,0 +1,6 @@
+[submodule "orca-chat-nest"]
+	path = orca-chat-nest
+	url = https://github.com/wowuliao11/orca-chat-nest.git
+[submodule "orca-chat-quasar"]
+	path = orca-chat-quasar
+	url = https://github.com/wowuliao11/orca-chat-quasar.git

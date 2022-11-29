@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  orca-nest:
+    restart: always
+    build: orca-chat-nest
+    ports:
+      - 4444:4444
+
+  orca-quasar:
+    restart: always
+    build: orca-chat-quasar
+    ports:
+      - 2893:80
+    links:
+      - orca-nest
