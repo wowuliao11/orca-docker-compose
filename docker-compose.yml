@@ -10,6 +10,6 @@ services:
     restart: always
     build: orca-chat-quasar
     ports:
-      - 2895:80
+      - 80:80
     links:
       - orca-nest
