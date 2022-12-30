@@ -3,6 +3,7 @@ services:
   orca-nest:
     restart: always
     build: orca-chat-nest
+    mem_limit: 512m
     ports:
       - 4444:4444
 
